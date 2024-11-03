@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    color: #fff;
+    align-content: center;
+    padding:20px;
+    font-size: 1.5rem;
+}
+.child1{
+    flex-basis: 200px;
+}
+.child2{
+    flex-basis: 300px;
+}
+.child3{
+    flex-basis: 400px;
+}
